@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+test-results/
+dist/
+release/
+LOCAL_HANDOFF.md
+PLAN.md
+QA.md
+CONTENT_AUDIT.md
+DEPLOYMENT.md
+.env
+.env.*

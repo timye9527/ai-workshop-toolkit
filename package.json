@@ -1,0 +1,17 @@
+{
+  "name": "eoe-ai-workshop-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "EOE AI实战工作坊 · 普通职场人的AI实战工具包",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/content.test.mjs",
+    "build:pages": "node scripts/build.mjs && node scripts/prepare-pages.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
