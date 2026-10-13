@@ -12,6 +12,10 @@
 
 真实案例和模拟教学资料分别标注；工具的动态权益、地区条件与未确认内容明确说明。
 
+## GitHub入口
+
+[工具包源码仓库](https://github.com/timye9527/ai-workshop-toolkit)已建立，当前为私有仓库，访问需要权限。可运行网站与GitHub Pages静态目录均已保存。
+
 ## 运行
 
 需要Node.js 20+，无需安装第三方依赖。
@@ -35,9 +39,9 @@ git commit -m '更新工具包内容'
 git push
 ```
 
-GitHub Pages发布源为默认分支的 `/docs` 文件夹。`docs/`由构建自动生成；修改内容请编辑`src/content.json`，页面与样式在`src/app.js`、`src/styles.css`。内部采用Hash路由，支持静态子目录与刷新。
+GitHub Pages准备采用默认分支的 `/docs` 文件夹作为发布源，尚未启用公开发布。`docs/`由构建自动生成；修改内容请编辑`src/content.json`，页面与样式在`src/app.js`、`src/styles.css`。内部采用Hash路由，支持静态子目录与刷新。
 
-Pages托管入口正在配置，完成后加入这里与网站页脚。中国内地实际访问效果依网络而异，国内托管后续再评估。
+公开GitHub仓库／Pages需要明确授权后启用；目前只保存私有源码入口。中国内地托管后续再评估。
 
 ## 隐私与核实
 
