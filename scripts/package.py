@@ -9,7 +9,7 @@ source = project / 'dist'
 files = sorted(p for p in source.rglob('*') if p.is_file())
 if not files or not (source / 'index.html').is_file():
     raise SystemExit('请先执行 npm run build')
-allowed = {'.html', '.css', '.js', '.json', '.svg', '.md', '.csv'}
+allowed = {'.html', '.css', '.js', '.json', '.svg', '.md', '.csv', '.png'}
 if any(p.suffix not in allowed or p.name.startswith('.') for p in files):
     raise SystemExit('发现非静态发布文件，已停止打包')
 release = project / 'release'

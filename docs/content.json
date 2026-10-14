@@ -959,5 +959,14 @@
         }
       ]
     }
-  ]
+  ],
+  "shareEntry": {
+    "title": "GitHub版 · 国际入口",
+    "url": "https://timye9527.github.io/ai-workshop-toolkit/",
+    "qrPng": "./downloads/toolkit-github-qr.png",
+    "qrSvg": "./downloads/toolkit-github-qr.svg",
+    "description": "适合已有可用网络访问环境的朋友。中国内地访问效果取决于所在网络；不方便打开时，可选择主办人在PPT中提供的国内入口。",
+    "slideText": "AI实战工具包｜GitHub版（国际入口）\n适合已有可用网络环境的朋友\n用手机相机或微信扫一扫识别二维码，点击网页链接打开。\nhttps://timye9527.github.io/ai-workshop-toolkit/",
+    "checked": "2026-10-14"
+  }
 }
