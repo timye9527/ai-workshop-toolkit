@@ -913,5 +913,51 @@
       "href": "#prompts/build",
       "action": "打开个人开发模板"
     }
+  ],
+  "networkServices": [
+    {
+      "id": "fengniao",
+      "name": "蜂鸟云",
+      "mark": "蜂",
+      "color": "#fff0e4",
+      "price": "¥12.9/月 · 主办人参考价",
+      "description": "适合想了解付费网络服务、比较套餐的用户。",
+      "cost": "官网标准套餐展示¥12.9、100GB/月；具体计费周期、当前价格与续费条件请以官网结算页为准。",
+      "region": "官网列有美国、日本、新加坡等地区，实际可选线路以账号页面为准。",
+      "status": "已核对官网名称、套餐展示与地区列表；速度、IP信誉和服务稳定性未实测。",
+      "url": "https://nb.fnynb.com/",
+      "searchKeyword": "蜂鸟云 nb.fnynb.com",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "label": "蜂鸟云官网 · 套餐与地区",
+          "url": "https://nb.fnynb.com/"
+        }
+      ]
+    },
+    {
+      "id": "freesocks",
+      "name": "FreeSocks",
+      "mark": "FS",
+      "color": "#edf3e8",
+      "price": "有免费方案 · 美国服务器",
+      "description": "由Unredacted运营，适合先了解免费网络服务的用户。",
+      "cost": "官方提供免费额度，并有可选付费会员；当前额度和权益请以官网为准。",
+      "region": "美国 · 官方说明v2服务器位于堪萨斯城（Kansas City）。",
+      "status": "“干净节点”通常指IP信誉，本站尚未实测；不保证特定AI产品可用。",
+      "url": "https://freesocks.org/",
+      "searchKeyword": "FreeSocks Unredacted freesocks.org",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "label": "运营方官方介绍",
+          "url": "https://unredacted.org/services/ce/freesocks/"
+        },
+        {
+          "label": "官方v2说明 · 免费方案与美国服务器",
+          "url": "https://unredacted.org/blog/2026/07/internet-freedom-is-here-freesocks-v2/"
+        }
+      ]
+    }
   ]
 }
