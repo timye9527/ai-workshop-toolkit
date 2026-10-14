@@ -12,9 +12,11 @@
 
 真实案例和模拟教学资料分别标注；工具的动态权益、地区条件与未确认内容明确说明。
 
-## GitHub入口
+## 公开访问
 
-[工具包源码仓库](https://github.com/timye9527/ai-workshop-toolkit)已建立，当前为私有仓库，访问需要权限。可运行网站与GitHub Pages静态目录均已保存。
+[打开AI实战工具包](https://timye9527.github.io/ai-workshop-toolkit/)：无需登录即可浏览、搜索和复制模板。
+
+[GitHub源码仓库](https://github.com/timye9527/ai-workshop-toolkit)已公开。网站由GitHub Pages托管；中国内地网络与微信真机访问效果尚待实测，国内托管路线后续再评估。
 
 ## 运行
 
@@ -39,12 +41,12 @@ git commit -m '更新工具包内容'
 git push
 ```
 
-GitHub Pages准备采用默认分支的 `/docs` 文件夹作为发布源，尚未启用公开发布。`docs/`由构建自动生成；修改内容请编辑`src/content.json`，页面与样式在`src/app.js`、`src/styles.css`。内部采用Hash路由，支持静态子目录与刷新。
+GitHub Pages已采用 `codex/ai-workshop-toolkit` 分支的 `/docs` 文件夹作为发布源。推送该分支后，平台自动更新公开网站。`docs/`由构建自动生成；修改内容请编辑`src/content.json`，页面与样式在`src/app.js`、`src/styles.css`。内部采用Hash路由，支持静态子目录与刷新。
 
-公开GitHub仓库／Pages需要明确授权后启用；目前只保存私有源码入口。中国内地托管后续再评估。
+2026年10月14日，主办人明确授权本项目公开。发布仅使用本项目的静态文件。
 
 ## 隐私与核实
 
-搜索与需求整理在浏览器执行，不调用AI模型；收藏和练习进度只保存在当前浏览器，可清除。外部链接适用对应平台的政策。操作AI工具前，请核对资料授权、事实与官方条件。
+搜索与需求整理在浏览器执行，不调用AI模型；收藏和练习进度只保存在当前浏览器，可清除。GitHub Pages负责提供静态网页，托管服务的访问记录适用GitHub政策；外部链接适用对应平台的政策。操作AI工具前，请核对资料授权、事实与官方条件。
 
 `npm test`验证内容结构、工具来源、案例标记、入口类型及可复制搜索线索。开发时的本地交付记录、浏览器截图与日志不上传到本仓库。
